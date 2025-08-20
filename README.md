@@ -59,7 +59,7 @@
 
 1. **克隆项目**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:aliyun-observability/java-manual-instrmentation-demo.git
    cd java-manual-Instrumentation-demo
    ```
 
