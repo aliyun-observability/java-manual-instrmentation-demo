@@ -1,8 +1,0 @@
-/Users/wu.cc/Code/java/java-manual-Instrumentation-demo/src/main/java/com/example/demo/dto/OrderRequest.java
-/Users/wu.cc/Code/java/java-manual-Instrumentation-demo/src/main/java/com/example/demo/model/Product.java
-/Users/wu.cc/Code/java/java-manual-Instrumentation-demo/src/main/java/com/example/demo/dto/OrderResponse.java
-/Users/wu.cc/Code/java/java-manual-Instrumentation-demo/src/main/java/com/example/demo/SpringBootOtelDemoApplication.java
-/Users/wu.cc/Code/java/java-manual-Instrumentation-demo/src/main/java/com/example/demo/controller/OrderController.java
-/Users/wu.cc/Code/java/java-manual-Instrumentation-demo/src/main/java/com/example/demo/service/ProductService.java
-/Users/wu.cc/Code/java/java-manual-Instrumentation-demo/src/main/java/com/example/demo/config/OpenTelemetryConfiguration.java
-/Users/wu.cc/Code/java/java-manual-Instrumentation-demo/src/main/java/com/example/demo/service/OrderService.java

@@ -63,14 +63,19 @@
    cd java-manual-Instrumentation-demo
    ```
 
-2. **编译项目**
+2. **打包项目**
    ```bash
-   mvn clean compile
+   mvn clean package
    ```
 
 3. **运行应用**
    ```bash
-   mvn spring-boot:run
+   java -javaagent:path/to/aliyun-java-agent.jar 
+   -Darms.licenseKey=${replace with you licenseKey} 
+   -Darms.appName=${replace with you appName}
+   -Daliyun.javaagent.regionId=${replace with your region}
+   -Dapsara.apm.metric.custom.include_scope_list=product_managementv
+   -jar target/spring-boot-otel-demo-1.0.0-SNAPSHOT.jar
    ```
 
    应用将在 `http://localhost:8080` 启动。
@@ -161,19 +166,6 @@ GET /api/orders/health
    // 商品总数
    product_total_count
    ```
-
-### Baggage 配置
-
-跨服务传播的上下文信息：
-
-```java
-Baggage baggage = Baggage.current()
-    .toBuilder()
-    .put("user.id", userId)
-    .put("operation.type", "product_order")
-    .put("request.timestamp", String.valueOf(System.currentTimeMillis()))
-    .build();
-```
 
 ## 测试示例
 
