@@ -1,0 +1,2 @@
+# java-manual-instrmentation-demo
+展示如何使用OpenTelemetry SDK实现自定义埋点生成span和指标的demo
