@@ -74,7 +74,7 @@
    -Darms.licenseKey=${replace with you licenseKey} 
    -Darms.appName=${replace with you appName}
    -Daliyun.javaagent.regionId=${replace with your region}
-   -Dapsara.apm.metric.custom.include_scope_list=product_managementv
+   -Dapsara.apm.metric.custom.include_scope_list=product_management
    -jar target/spring-boot-otel-demo-1.0.0-SNAPSHOT.jar
    ```
 
